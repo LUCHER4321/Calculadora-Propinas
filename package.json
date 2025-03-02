@@ -1,0 +1,28 @@
+{
+  "name": "calculadora-propinas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && cpx 'src/*.html' dist && cpx 'src/*.css' dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LUCHER4321/Calculadora-Propinas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LUCHER4321/Calculadora-Propinas/issues"
+  },
+  "homepage": "https://github.com/LUCHER4321/Calculadora-Propinas#readme",
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.8.2"
+  }
+}
