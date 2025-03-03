@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && cpx '*.html' dist && cpx 'src/*.css' dist",
+    "build": "tsc",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
